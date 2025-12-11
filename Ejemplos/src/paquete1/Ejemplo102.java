@@ -33,7 +33,7 @@ public class Ejemplo102 {
             // Luis o Ana
             nombre = estudiantes[i];
             if (!nombre.equals("Luis")) {
-
+     // usando el ! se da por entendido que todo lo diferente a "Luis" es valido
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n",
                         mensajeFinal,
